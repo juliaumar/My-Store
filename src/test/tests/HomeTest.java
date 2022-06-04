@@ -41,10 +41,10 @@ public class HomeTest extends BaseTest {
         homePage.click(homePage.headling);
         homePage.click(homePage.customerService);
 
-      //  homePage.sendKeys(homePage.email,email);
-      //  homePage.sendKeys(homePage.orderRef,reference);
-      //  homePage.sendKeys(homePage.addFile, addFile);
-      //  homePage.sendKeys(homePage.message, message);
+       homePage.sendKeys(homePage.email,email);
+       homePage.sendKeys(homePage.orderRef,reference);
+       homePage.sendKeys(homePage.addFile, addFile);
+       homePage.sendKeys(homePage.message, message);
 
     }
 

@@ -26,17 +26,12 @@ public class HomePage extends BasePage {
 
     @FindBy(xpath = "(//*[@class='button ajax_add_to_cart_button btn btn-default'])[5]")
     public WebElement addToCart2;
-   // @FindBy(xpath = "//*[@id='homefeatured']/li[4]/div/div[2]/div[2]/a[1]/span")
-   // public WebElement addToCart2;
 
     @FindBy(className= "continue btn btn-default button exclusive-medium")
     public WebElement continShopping;
 
     @FindBy(xpath = "//*[@id='contact-link']/a")
     public WebElement contactUsBtn;
-
-
-
 
     @FindBy(id = "uniform-id_contact")
     public WebElement headling;
@@ -55,8 +50,6 @@ public class HomePage extends BasePage {
 
     @FindBy(xpath = "(//*[@id='message'])[1]")
     public WebElement message;
-
-
 
     @DataProvider(name = "Contact Us info")
     public Object[][] data() {
