@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="56ea4c25-057c-4c6d-a468-c0d72ed53f8b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/base/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/config/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/config/configuration.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/tests/HomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/HomeTest.java" afterDir="false" />
     </list>
@@ -33,19 +35,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/juliaumar/Desktop/Selenium/My-Store/src/test"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/juliaumar/Desktop/Selenium/My-Store/src/test&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.HomeTest.test04">
     <configuration name="HomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My-Store" />
       <extension name="coverage">
@@ -63,8 +65,84 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomeTest.test01" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="My-Store" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomeTest" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest.test02" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="My-Store" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomeTest" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest.test03" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="My-Store" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomeTest" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HomeTest.test04" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="My-Store" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomeTest" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomeTest.test04" />
+        <item itemvalue="TestNG.HomeTest.test03" />
+        <item itemvalue="TestNG.HomeTest.test02" />
+        <item itemvalue="TestNG.HomeTest.test01" />
         <item itemvalue="TestNG.HomeTest" />
       </list>
     </recent_temporary>
@@ -90,5 +168,17 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/test/base/BaseTest.java</url>
+          <line>19</line>
+          <properties field="driver" class="base.BaseTest" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
