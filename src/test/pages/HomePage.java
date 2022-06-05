@@ -1,11 +1,14 @@
 package pages;
 
 import base.BasePage;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.DataProvider;
+
+import java.util.List;
 
 public class HomePage extends BasePage {
     protected WebDriver driver;
@@ -18,17 +21,11 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//*[@class='replace-2x img-responsive']")
     public WebElement hiddenEl;
 
-    @FindBy(xpath = "(//*[@class='replace-2x img-responsive'])[5]")
-    public WebElement hiddenEl2;
-
     @FindBy(xpath = "//*[@id=\"index\"]")
     public WebElement addToCart;
 
-    @FindBy(xpath = "(//*[@class='button ajax_add_to_cart_button btn btn-default'])[5]")
-    public WebElement addToCart2;
-
-    @FindBy(className= "continue btn btn-default button exclusive-medium")
-    public WebElement continShopping;
+   @FindBy(xpath = "//*[@title='View my shopping cart']")
+   public WebElement hiddenEl2;
 
     @FindBy(xpath = "//*[@id='contact-link']/a")
     public WebElement contactUsBtn;
@@ -50,6 +47,17 @@ public class HomePage extends BasePage {
 
     @FindBy(xpath = "(//*[@id='message'])[1]")
     public WebElement message;
+
+    @FindBy(xpath = "(//button[@type='submit'])[2]")
+    public WebElement submitBtn;
+
+    @FindBy(xpath = "//p[@class='alert alert-success']")
+    public WebElement confirmedMessage;
+
+    @FindBy(xpath = "//*[@class='toggle-footer']//li")
+    public WebElement footer;
+
+
 
 
     }

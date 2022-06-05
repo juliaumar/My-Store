@@ -46,7 +46,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomeTest.test03">
+  <component name="RunManager" selected="TestNG.HomeTest.test04">
     <configuration name="HomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My-Store" />
       <extension name="coverage">
@@ -138,10 +138,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomeTest.test03" />
         <item itemvalue="TestNG.HomeTest.test04" />
-        <item itemvalue="TestNG.HomeTest.test02" />
+        <item itemvalue="TestNG.HomeTest.test03" />
         <item itemvalue="TestNG.HomeTest.test01" />
+        <item itemvalue="TestNG.HomeTest.test02" />
         <item itemvalue="TestNG.HomeTest" />
       </list>
     </recent_temporary>
