@@ -51,16 +51,6 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "(//*[@id='message'])[1]")
     public WebElement message;
 
-    @DataProvider(name = "Contact Us info")
-    public Object[][] data() {
-        Object[][] data = new Object[1][4];
 
-        data[0][0] = "flower@test.com";
-        data[0][1] = "657895400";
-        data[0][2] = "/Users/juliaumar/Desktop/html/day2";
-        data[0][3] = "Hello World";
-
-        return data;
     }
 
-}

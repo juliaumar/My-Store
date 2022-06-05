@@ -2,6 +2,7 @@ package tests;
 
 import base.BaseTest;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import pages.HomePage;
 
@@ -34,14 +35,25 @@ public class HomeTest extends BaseTest {
         homePage.click(homePage.headling);
         homePage.click(homePage.customerService);
     }
+    @DataProvider(name = "Contact Us info")
+    public Object[][] data() {
+        Object[][] data = new Object[1][4];
 
-    @Test(testName = " IN-3 Fill out Customer Service", dataProvider = "Contact Us info")
+        data[0][0] = "flower@test.com";
+        data[0][1] = "657895400";
+        data[0][2] = "/Users/juliaumar/Desktop/html/day2";
+        data[0][3] = "Hello World";
+
+        return data;
+    }
+
+    @Test(testName = "IN-3 Fill out Customer Service", dataProvider = "Contact Us info")
     public void test04( String email, String reference,String  addFile, String message){
         homePage.click(homePage.contactUsBtn);
         homePage.click(homePage.headling);
         homePage.click(homePage.customerService);
 
-       homePage.sendKeys(homePage.email,email);
+        homePage.sendKeys(homePage.email,email);
        homePage.sendKeys(homePage.orderRef,reference);
        homePage.sendKeys(homePage.addFile, addFile);
        homePage.sendKeys(homePage.message, message);

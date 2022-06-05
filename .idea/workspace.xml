@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="56ea4c25-057c-4c6d-a468-c0d72ed53f8b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/base/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/base/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/config/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/config/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/tests/HomeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/tests/HomeTest.java" afterDir="false" />
     </list>
@@ -47,7 +46,7 @@
       <recent name="$PROJECT_DIR$/src/test" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HomeTest.test04">
+  <component name="RunManager" selected="TestNG.HomeTest.test03">
     <configuration name="HomeTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="My-Store" />
       <extension name="coverage">
@@ -139,8 +138,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HomeTest.test04" />
         <item itemvalue="TestNG.HomeTest.test03" />
+        <item itemvalue="TestNG.HomeTest.test04" />
         <item itemvalue="TestNG.HomeTest.test02" />
         <item itemvalue="TestNG.HomeTest.test01" />
         <item itemvalue="TestNG.HomeTest" />
